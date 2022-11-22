@@ -37,6 +37,8 @@
 
 .introduction {
    justify-content: center;
+   
+
 
 }
 
@@ -64,7 +66,8 @@
 }
 
 .img-project-creators {
-   max-width: 100%;
+   max-width: 80%;
+   margin: 20px;
 }
 
 /* CONTEXTO */
@@ -76,6 +79,9 @@
 
 .img-ebook {
    max-width: 90%;
+   margin: 12px;
+   padding: 40px;
+  
 }
 
 .context-img-book {
@@ -117,6 +123,7 @@
    align-items: center;
    letter-spacing: 0.14em;
    color: #6479FF;
+   padding: 6px;
 
 }
 
@@ -137,13 +144,13 @@
 .tools-container {
    margin: 20px 20px 0;
    height: 10vh;
-
-
+   
+   
 }
 
 .tools-container-kit {
    height: 35px;
-   max-width: 100%;
+   max-width: 70%;
    background: #6479FF;
    font-family: 'Inter', sans-serif;
    font-size: 14px;
@@ -158,17 +165,17 @@
 }
 
 .tools-img-clipboard {
-   max-width: 25%;
+   max-width: 20%;
    position: relative;
-   left: -17px;
+   left: 38px;
    background: transparent;
-   top: -60px;
+   top: -65px;
 
 }
 
 .tools-gallery {
    position: relative;
-   max-width: 640px;
+   margin: 20px;
 }
 
 .tools-gallery-container {
@@ -179,6 +186,7 @@
 
 .tools-gallery-wrapper {
    overflow-x: auto;
+   width: 100%;
 }
 
 .item {
@@ -191,17 +199,19 @@
 
 .download-button-container {
    display: flex;
+   
 
 }
 
 .button-download {
-   width: 60%;
-   height: 60px;
+   width: 50%;
+   height: 40px;
    background: #FFBB24;
    border-radius: 50px;
    border: none;
    cursor: pointer;
    filter: drop-shadow(0px 0px 16px rgb(255, 187, 36, 1));
+   margin: 70px;
 
 
 }
@@ -209,7 +219,7 @@
 .download-ebook {
    font-family: 'Inter';
    font-weight: 700;
-   font-size: 17px;
+   font-size: 14px;
    color: #6479FF;
    background: transparent;
    text-decoration: none;
@@ -218,15 +228,18 @@
 
 .download-button-container{
    margin-top: 20px;
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
    
 }
 
 .img-megaphone {
-   max-width: 40%;
+   max-width: 26%;
    position: relative;
    background: transparent;
-   bottom: 140px;
-   left: 290px;
+   bottom: 158px;
+   left: 250px;
    
 
 }
@@ -303,7 +316,7 @@
    }
 
    .img-ebook {
-      max-width: 330px;
+      max-width: 300px;
    }
 
    .context-img-book {
