@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+
+/* HOME PAGE */
+
+* {
+   margin: auto;
+   background: #EEFAFF;
+}
+
+.showcase {
+   display: flex;
+   flex-direction: column;
+}
+
+.img-showcase {
+   width: 100%;
+
+}
+
+.showcase-text {
+   height: 38px;
+   width: 100%;
+   background: #6479FF;
+   font-family: 'Inter', sans-serif;
+   font-size: 10px;
+   justify-content: center;
+   color: #FFBB24;
+   display: flex;
+   font-weight: 700;
+   text-align: center;
+   align-items: center;
+
+}
+
+/* INTRODUÇÃO */
+
+.introduction {
+   justify-content: center;
+
+}
+
+.introduction-container {
+   font-family: 'Inter';
+   font-size: 12px;
+   text-align: justify;
+   color: #15006B;
+   margin: 20px;
+
+}
+
+.introduction-block {
+   height: 40px;
+   width: 100%;
+   background: #6479FF;
+   font-family: 'Inter', sans-serif;
+   font-size: 14px;
+   justify-content: center;
+   color: #FFBB24;
+   display: flex;
+   font-weight: bold;
+   text-align: center;
+   align-items: center;
+}
+
+.img-project-creators {
+   max-width: 100%;
+}
+
+/* CONTEXTO */
+
+.context {
+   margin: 10px;
+
+}
+
+.img-ebook {
+   max-width: 90%;
+}
+
+.context-img-book {
+   display: flex;
+
+}
+
+.context-container {
+   font-family: 'Inter';
+   font-size: 12px;
+   text-align: justify;
+   color: #15006B;
+   margin: 10px;
+}
+
+.context-block {
+   height: 40px;
+   width: 100%;
+   background: #6479FF;
+   font-family: 'Inter', sans-serif;
+   font-size: 14px;
+   justify-content: center;
+   color: #FFBB24;
+   display: flex;
+   font-weight: bold;
+   text-align: center;
+   align-items: center;
+
+}
+
+/* MATERIAIS */
+
+.materials {
+   display: flex;
+   font-family: 'Inter';
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 44px;
+   align-items: center;
+   letter-spacing: 0.14em;
+   color: #6479FF;
+
+}
+
+.materials-text-kit {
+
+   height: 3px;
+   min-width: 30%;
+   background: rgba(117, 137, 255, 1);
+
+}
+
+.img-materials {
+   max-width: 100%;
+}
+
+/* FERRAMENTAS */
+
+.tools-container {
+   margin: 20px 20px 0;
+   height: 10vh;
+
+
+}
+
+.tools-container-kit {
+   height: 35px;
+   max-width: 100%;
+   background: #6479FF;
+   font-family: 'Inter', sans-serif;
+   font-size: 14px;
+   justify-content: center;
+   color: #FFBB24;
+   display: flex;
+   font-weight: bold;
+   text-align: center;
+   align-items: center;
+
+
+}
+
+.tools-img-clipboard {
+   max-width: 25%;
+   position: relative;
+   left: -17px;
+   background: transparent;
+   top: -60px;
+
+}
+
+.tools-gallery {
+   position: relative;
+   max-width: 640px;
+}
+
+.tools-gallery-container {
+   display: flex;
+   flex-flow: row nowrap;
+
+}
+
+.tools-gallery-wrapper {
+   overflow-x: auto;
+}
+
+.item {
+   min-width: 40%;
+
+}
+
+/* DOWNLOAD */
+
+
+.download-button-container {
+   display: flex;
+
+}
+
+.button-download {
+   width: 60%;
+   height: 60px;
+   background: #FFBB24;
+   border-radius: 50px;
+   border: none;
+   cursor: pointer;
+   filter: drop-shadow(0px 0px 16px rgb(255, 187, 36, 1));
+
+
+}
+
+.download-ebook {
+   font-family: 'Inter';
+   font-weight: 700;
+   font-size: 17px;
+   color: #6479FF;
+   background: transparent;
+   text-decoration: none;
+  
+}
+
+.download-button-container{
+   margin-top: 20px;
+   
+}
+
+.img-megaphone {
+   max-width: 40%;
+   position: relative;
+   background: transparent;
+   bottom: 140px;
+   left: 290px;
+   
+
+}
+
+/* CRIADORES */
+
+.creators-gallery {
+   position: relative;
+   max-width: 640px;
+
+}
+
+.creators-gallery-container {
+   display: flex;
+   flex-flow: row nowrap;
+   gap: 20px;
+   margin: 0 0 50px;
+   padding: 0 10px;
+}
+
+.creators-gallery-wrapper {
+   overflow-x: auto;
+}
+
+.creator {
+   min-width: 40%;
+
+}
+
+.creator-img{
+   min-width: 40%;
+}
+
+/* RODAPÉ */
+
+.footer {
+   background: #6479FF;
+   color: #FFBB24;
+   text-align: center;
+   padding: 10px;
+   font-size: 25px;
+
+}
+
+/* TABLET */
+
+@media(min-width: 750px) {
+   .showcase-text {
+      height: 40px;
+      font-size: 15px;
+   }
+
+   .introduction {
+      display: flex;
+
+   }
+
+   .introduction-container {
+      font-size: 14px;
+      margin: 20px 10px;
+
+   }
+
+   .img-project-creators {
+      max-width: 50%;
+   }
+
+   /* CONTEXTO */
+
+   .context {
+      display: flex;
+      transform: scaleX(-1);
+
+   }
+
+   .img-ebook {
+      max-width: 330px;
+   }
+
+   .context-img-book {
+      display: flex;
+      transform: scaleX(-1);
+
+
+   }
+
+   .context-container {
+      transform: scaleX(-1);
+      font-size: 14px;
+      margin: 10px 20px;
+   }
+
+   .context-block {
+      height: 40px;
+      width: 100%;
+      font-size: 14px;
+
+   }
+
+   /* FERRAMENTAS */
+   .tools-container-kit{
+     height: 68px;
+     width: 400px;
+     left: 60px;
+     font-size: 22px;
+     
+
+   }
+
+
+   .tools-container {
+      height: 20 vh;
+   
+     
+   }
+   .download-button-container{
+      margin-top: 100px;
+     
+     
+   }
+
+   .tools-img-clipboard {
+      left: 28px;
+      top: -120px;
+      width: 30%;
+   }
+
+   .tools-gallery {
+      max-width: 740px;
+      left: 28px;
+      top: 100px;
+      gap:10px;
+   }
+
+   /* DOWNLOAD */
+
+   .button-download {
+      width: 60%;
+      height: 48px;
+      align-items: center;
+      justify-items: center;
+      justify-content: center;
+     
+
+   }
+
+   .download-ebook {
+      font-size: 20px;
+   }
+
+   .img-megaphone {
+      max-width: 30%;
+      bottom: 150px;
+      left: 470px;
+
+   }
+
+   /* CRIADORES */
+
+   .creators-gallery {
+      max-width: 740px;
+
+   }
+
+
+   .creator {
+      min-width: 35%;
+
+   }
+
+   @media(min-width: 576px) {
+
+   }
+
+
+}
